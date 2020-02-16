@@ -14,9 +14,21 @@ The JavaScript object based routing autofill library.
 
 # Installation
 
-You can install this library via GitHub repository.
+- Yarn
 
-> The direct command to install this package via the package manager such as NPM and Yarn with name is not available this time.
+```sh
+yarn add parcel-routes
+```
+
+- NPM
+
+```sh
+npm install parcel-routes
+```
+
+## via git-scm
+
+You can install this library via GitHub repository.
 
 - Yarn
 
