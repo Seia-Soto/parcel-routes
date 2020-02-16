@@ -1,0 +1,10 @@
+{
+  "name": "parcel-routes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Seia-Soto <seia@outlook.kr>",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.1.1"
+  }
+}

@@ -1,57 +1,6 @@
-# parcel-routes
-
-The JavaScript object based routing autofill library.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Coverage](#coverage)
-  - [Supported backend](#supported-backend)
-- [Usage](#usage)
-  - [Example](#example)
-
-----
-
-# Installation
-
-You can install this library via GitHub repository.
-
-> The direct command to install this package via the package manager such as NPM and Yarn with name is not available this time.
-
-- Yarn
-
-```sh
-yarn add https://github.com/Seia-Soto/parcel-routes.git
-```
-
-- NPM
-
-```sh
-npm install Seia-Soto/parcel-routes
-```
-
-# Coverage
-
-## Supported backend
-
-- [Koa](#koa)
-
-### Koa
-
-- Recognizable name (use for `useFramework`): `koa`
-- External body parser: `koa-body`
-- External router library: `koa-router`
-
-# Usage
-
-This library exports one class named `ParcelRoutes`.
-
-## Example
-
-```js
 const Koa = require('koa')
 const Router = require('koa-router')
-const ParcelRoutes = require('parcel-routes')
+const ParcelRoutes = require('../')
 const useBody = require('koa-body')
 
 const app = new Koa()
@@ -83,4 +32,3 @@ app
   .use(router.routes())
   .use(router.allowedMethods())
   .listen(3000)
-```
